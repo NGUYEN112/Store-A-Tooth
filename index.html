@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store A Tooth</title>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery-2.2.4.min.js"></script> 
+    <script src="js/multislider.min.js"></script>
+</head>
+
+<body>
+
+    <div class="topbar">
+        <p class="topbar__content">Speak with a Client Educator Today! <i class="fas fa-phone-alt"></i>
+            877-867-5753
+        </p>
+        <i class="fas fa-times topbar__close" id="hide"></i>
+    </div>
+    <header class="container header">
+        <nav class="navbar">
+            <a href="index.html">
+                <img src="images/logo.png" alt="">
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item parent navbar-link">
+                    <a href="#" class="nav-link">Dental Stem Cells 101</a>
+                    <ul class="header__dropdown-content child class1">
+                        <li><a href="#">Why Bank Stem Cells</a></li>
+                        <li><a href="#">Why Teeth</a></li>
+                        <li><a href="#">Dentist Recommended</a></li>
+                        <li class="parent"><a href="#">Emerging Treatments <i class="far fa-angle-right"></i></a>
+                            <ul class="header__dropdown-item child class2">
+                                <li><a href="#">Type 1 Diabetes</a></li>
+                                <li><a href="#">Alzheimer’s Disease</a></li>
+                                <li><a href="#">Autism</a></li>
+                                <li><a href="#">Parkinson’s Disease</a></li>
+                                <li><a href="#">Muscular Dystrophy </a></li>
+                                <li><a href="#">Multiple Sclerosis </a></li>
+                                <li><a href="#">Arthritis </a></li>
+                                <li><a href="#">Bone Regeneration </a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Recent News</a></li>
+                        <li><a href="#">FAQ’s</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item navbar-link">
+                    <a href="#" class="nav-link ">Our Process</a>
+                </li>
+                <li class="nav-item navbar-link">
+                    <a href="#" class="nav-link ">Pricing</a>
+                </li>
+                <li class="nav-item navbar-link">
+                    <a href="#" class="nav-link ">Stories</a>
+                </li>
+                <li class="nav-item search-container">
+                    <a href="#" class="search-btn nav-link">
+                        <i class="far fa-search"></i>
+                    </a>
+                    <input type="text" name="search" placeholder="  Search..." class="search-input">
+
+                </li>
+
+                <div class="search-container">
+
+                </div>
+                <li class="nav-item">
+                    <a href="#" class="nav-link header__enroll">ENROLL NOW</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="container banner__inner row">
+            <div class="banner__content col-5">
+                <h1 class="banner__content-title">Bank Dental Stem Cells
+                    Prepare for the Future
+                </h1>
+                <h4 class="banner__content-subtitle">
+                    Many families are choosing to save stem cells that are around in the pulp
+                    of teeth as an investment into their future health.
+                </h4>
+                <a href="#" class="banner__content-button">REQUEST INFO KIT
+                    <span class="banner__content-arrow"><i class="fas fa-arrow-right "></i>
+                    </span>
+                </a>
+            </div>
+            <!-- <div class="banner__image">
+                <img src="images/banner1.jpg" alt="">
+            </div> -->
+        </div>
+    </section>
+
+    <section class="benefits">
+        <div class="benefits__title">
+            <h1>WHAT YOUR GET</h1>
+        </div>
+        <div class="container ">
+            <div class="benefits__inner">
+                <div class="benefits__route row">
+                    <div class="benefits__route-inner col-4">
+                        <img src="images/benefits/title1.png" alt="" class="benefits__route-inner-image">
+                        <h1 class="benefits__route-inner-title">Lorem Ipsum Title 1</h1>
+                        <h4 class="benefits__route-inner-subtitle">Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Eum
+                            officia id voluptate sint nihil.</h4>
+                    </div>
+                    <div class="benefits__route-inner col-4">
+                        <img src="images/benefits/title2.png" alt="" class="benefits__route-inner-image">
+                        <h1 class="benefits__route-inner-title">Lorem Ipsum Title 2</h1>
+                        <h4 class="benefits__route-inner-subtitle">Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Eum
+                            officia id voluptate sint nihil.</h4>
+                    </div>
+                    <div class="benefits__route-inner col-4">
+                        <img src="images/benefits/title3.png" alt="" class="benefits__route-inner-image">
+                        <h1 class="benefits__route-inner-title">Lorem Ipsum Title 3</h1>
+                        <h4 class="benefits__route-inner-subtitle">Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Eum
+                            officia id voluptate sint nihil.</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="benefits__split">
+                <div class="benefits__split-title">As Seen On</div>
+            </div>
+            <!-- <div class="benefits__inner">
+                <div class="benefits__media row ">
+                    <img src="images/benefits/papper1.png" alt="" class="benefits__media-image col-2 col-6-sm">
+                    <img src="images/benefits/papper2.png" alt="" class="benefits__media-image col-2 col-6-sm">
+                    <img src="images/benefits/papper3.jpg" alt="" class="benefits__media-image col-2 col-6-sm">
+                    <img src="images/benefits/papper4.png" alt="" class="benefits__media-image col-2 col-6-sm">
+                    <img src="images/benefits/papper5.png" alt="" class="benefits__media-image col-2 col-6-sm">
+                </div>
+            </div> -->
+
+            <div id="exampleSlider">      <!-- Give wrapper ID to target with jQuery & CSS -->
+                <div class="MS-content">
+                    <div class="item"><img src="images/benefits/papper1.png" alt=""></div>
+                    <div class="item"><img src="images/benefits/papper2.png" alt=""></div>
+                    <div class="item"> <img src="images/benefits/papper3.png" alt=""> </div>
+                    <div class="item"> <img src="images/benefits/papper4.png" alt=""> </div>
+                    <div class="item"> <img src="images/benefits/papper5.png" alt=""> </div>
+                </div>
+                <div class="MS-controls">
+                    <button class="MS-left"><i class="fa fa-chevron-left fa-3x" aria-hidden="true"></i></button>
+                    <button class="MS-right"><i class="fa fa-chevron-right fa-3x" aria-hidden="true"></i></button>
+                </div>
+            </div> 
+        </div>
+
+        
+    </section>
+
+    <section class="ourlab">
+        <div class="container ourlab__inner row">
+            <div class="ourlab__content col-5">
+                <h1 class="ourlab__content-title">Our Lab.<br>
+                    cGMP-Compliant.
+                </h1>
+                <h4 class="ourlab__content-subtitle">Your child's stem cells are extracted and cultured in US
+                    laboratories that are certified to meet FDA-registered cGMP standards.</h4>
+                <h4 class="ourlab__content-subtitle">A cGMP-compliant lab must meat certain quality,safety and
+                    consistency standards that ensure the opportunity for our customers to use their cells in the future
+                    - which most other "stem cell" banks cannot guarantee.</h4>
+                <h4 class="ourlab__content-subtitle">Store-A-Tooth is one of the only stem cell banks in the world that
+                    operates under the FDA's guidelines for manufaturing cellular products (cGMP)</h4>
+                <a href="#" class="ourlab__content-button">learn more</a>
+            </div>
+            <div class="ourlab__image col-5">
+                <img src="images/ourlab/toolth.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="ourprocess">
+        <div class="container ourprocess__inner row">
+            <div class="ourprocess__image col-5">
+                <img src="images/our-process/ourprocess.jpg" alt="">
+            </div>
+            <div class="ourprocess__content col-5">
+                <div class="ourprocess__content-title">
+                    Our Process
+                </div>
+                <div class="ourprocess__content-subtitle">Provide your child's tooth same from home or the dentist's
+                    office. Mail it back to our lab in the same kit it came in - the postage is pre-paid.</div>
+                <div class="ourprocess__content-subtitle">We store the stem cell in secure facility. At -240* F!</div>
+                <div class="ourprocess__content-func">
+                    <a href="#" class="ourprocess__content-func-button">learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="approved">
+        <div class="approved__header">
+            <h1 class="approved__header-title">Parent Approved</h1>
+            <h4 class="approved__header-subtitle">Find out why other parent are saying "yes" to banking and
+                preserving their child's stem cell for the future.</h4>
+        </div>
+        <div class="container approved__inner">
+            <div class="approved__content row ">
+                <div class="approved__content-item col-4-lg">
+                    <img src="images/approved/item1.jpg" alt="" class="approved__content-item-image">
+                    <h2 class="approved__content-item-title">Georgia</h2>
+                    <h4 class="approved__content-item-subtitle">A recent study in the Journal of Dental Research
+                        indicating stem cells from teeth may someday produce a cure</h4>
+                </div>
+                <div class="approved__content-item col-4-lg">
+                    <img src="images/approved/item2.jpg" alt="" class="approved__content-item-image">
+                    <h2 class="approved__content-item-title">Claudia</h2>
+                    <h4 class="approved__content-item-subtitle">Claudia is the mother of 10-year old daughter,
+                        Gabriella,
+                        who was born with a congential heart defect.....</h4>
+                </div>
+                <div class="approved__content-item col-4-lg">
+                    <img src="images/approved/item3.jpg" alt="" class="approved__content-item-image">
+                    <h2 class="approved__content-item-title">Georgia</h2>
+                    <h4 class="approved__content-item-subtitle">A recent study in the Journal of Dental Research
+                        indicating stem cells from teeth may someday produce a cure</h4>
+                </div>
+            </div>
+            <div class="approved__func">
+                <a href="#" class="approved__func-button">learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="question">
+        <div class="question__header">
+            <h1>Still Have Question?</h1>
+            <h4>Here are just a few of the things people frequently ask about Store-A-Tooth. <br>
+                If you don't see your question here, <a href="#">see more FAQ's</a> or <br>
+                <a href="#">get in touch with us</a>
+            </h4>
+        </div>
+        <div class="container question__inner">
+            <div class="question__tabs">
+                <div class="question__tab">
+                    <input type="checkbox" id="check-1">
+                    <label class="question__tab-label" for="check-1">What are Stem Cells?</label>
+                    <div class="question__tab-content">
+                        Stem cells have the ability to change into different cell types. They also have the ability to
+                        aid in the healing of damaged tissue. These are just two of the reasons why scientists and
+                        doctors are so excited about the growing role of stem cells to treat disease, injury, and the
+                        deterioration of tissue due to aging.
+                    </div>
+                </div>
+                <div class="question__tab">
+                    <input type="checkbox" id="check-2">
+                    <label class="question__tab-label" for="check-2">What are Stem Cells?</label>
+                    <div class="question__tab-content">
+                        item 2
+                    </div>
+                </div>
+
+                <div class="question__tab">
+                    <input type="checkbox" id="check-3">
+                    <label class="question__tab-label" for="check-3">What Diseases are being Studied?</label>
+                    <div class="question__tab-content">
+                        item 3
+                    </div>
+                </div>
+
+                <div class="question__tab">
+                    <input type="checkbox" id="check-4">
+                    <label class="question__tab-label" for="check-4">What do families choose to store their dental stem
+                        cells?</label>
+                    <div class="question__tab-content">
+                        item 4
+                    </div>
+                </div>
+
+                <div class="question__tab">
+                    <input type="checkbox" id="check-5">
+                    <label class="question__tab-label" for="check-5">Should I bank cells for more than one
+                        tooth?</label>
+                    <div class="question__tab-content">
+                        item 5
+                    </div>
+                </div>
+
+                <div class="question__tab">
+                    <input type="checkbox" id="check-6">
+                    <label class="question__tab-label" for="check-6">Should I bank cells from more than one
+                        child?</label>
+                    <div class="question__tab-content">
+                        item 6
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container question__subcontent">
+            <div class="question__subcontent-split">
+            </div>
+
+            <div class="question__subcontent-inner row">
+                <div class="question__subcontent-firsttag col-7-lg">
+                    <div class="question__subcontent-image">
+                        <img src="images/contact/letter.png" alt="">
+                    </div>
+                    <div class="question__subcontent-content">
+                        <h4>You are invited!</h4>
+                        <h1>Enter Your Email for Exclusive Offers and Updates </h1>
+                    </div>
+                </div>
+
+                <div class="question__subcontent-form col-5-lg">
+                    <div class="question__subcontent-form-input">
+                        <input type="text" placeholder="Enter your Email...">
+                        <a href="#"><i class="fas fa-arrow-right "></i></a>
+                    </div>
+                    <p>I consent to the transfer and validation of my email address in conjugation of this email
+                        service I understand i may withdraw my consent and unsubscribe at any time</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer__inner row">
+            <div class="footer__content col-2 col-6-sm">
+                <ul class="footer__content-list">
+                    <li>
+                        <h2 class="footer__content-title">Store A Tooth</h2>
+                    </li>
+                    <li><a href="#" class="footer__content-item">About Us</a></li>
+                    <li><a href="#" class="footer__content-item">Contact Us</a></li>
+                    <li><a href="#" class="footer__content-item">Refer a Friend</a></li>
+                    <li><a href="#" class="footer__content-item">Careers</a></li>
+                    <li><a href="#" class="footer__content-item">Blog</a></li>
+                    <li><a href="#" class="footer__content-item">FAQs</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content col-2 col-6-sm">
+                <ul class="footer__content-list">
+                    <li>
+                        <h2 class="footer__content-title"></h2>
+                    </li>
+                    <li><a href="#" class="footer__content-item">Our Accreditations</a></li>
+                    <li><a href="#" class="footer__content-item">International Service</a></li>
+                    <li><a href="#" class="footer__content-item">Research Bibliography</a></li>
+                    <li><a href="#" class="footer__content-item">Terms and Conditions</a></li>
+                    <li><a href="#" class="footer__content-item">Privacy Policy</a></li>
+                    <li><a href="#" class="footer__content-item">Sitemap</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer__content col-2 col-6-sm">
+                <ul class="footer__content-list">
+                    <li>
+                        <h2 class="footer__content-title">Partners With Us</h2>
+                    </li>
+                    <li><a href="#" class="footer__content-item">Dental Professionals</a></li>
+                    <li><a href="#" class="footer__content-item">Advocate Program</a></li>
+                    <li><a href="#" class="footer__content-item">Influencers</a></li>
+                    <li><a href="#" class="footer__content-item">Affiliates</a></li>
+                    <li><a href="#" class="footer__content-item">Press</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content col-2 col-6-sm">
+                <ul class="footer__content-list">
+                    <li>
+                        <h2 class="footer__content-title">Follow Us</h2>
+                    </li>
+                    <li> <a href="#" class="footer__content-item"><i class="fab fa-facebook-square"></i> Facebook</a>
+                    </li>
+                    <li> <a href="#" class="footer__content-item"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="#" class="footer__content-item"><i class="fab fa-linkedin"></i> Linkedin</a></li>
+                    <li><a href="#" class="footer__content-item"><i class="fab fa-youtube"></i> Youtube</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer__contact">
+            <div class="footer__contact-item">
+                <h2>Phone:</h2>
+                <p>(877) 867-5753</p>
+            </div>
+            <div class="footer__contact-item">
+                <h2>Email:</h2>
+                <p>info@store-a-tooth.com</p>
+            </div>
+        </div>
+        <div class="footer__logo">
+            <img src="images/logo.png" alt="">
+            <p>Copyright © 2016 Provia Laboratories LLC All rights reserved.</p>
+        </div>
+    </footer>
+    
+
+
+    <script>
+        $(document).ready(function () {
+            $("#hide").click(function () {
+                $(".topbar").hide();
+            });
+        });
+
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
+
+        hamburger.addEventListener("click", mobileMenu);
+
+        function mobileMenu() {
+            hamburger.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        };
+
+       
+
+
+
+    </script>
+<script>
+ $('#exampleSlider').multislider();
+
+// <!-- Initialize with options, if needed -->
+    $('#exampleSlider').multislider({
+    interval:5000,
+    // slideAll:true
+    });
+</script>
+
+    <!-- Initialize the plugin -->
+
+</body>
+
+</html>
